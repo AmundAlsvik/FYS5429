@@ -1,0 +1,21 @@
+# FYS5429 project requirements
+#
+# For non-anaconda users:
+# Pip install:
+#   python -m pip install -r requirements.txt
+#
+# I personally used anaconda, and in that case the installation commands are:
+# Conda alternative:
+#   conda install numpy pandas matplotlib seaborn jupyter ipykernel
+#   conda install pytorch -c pytorch
+#   conda install jax jaxlib -c conda-forge
+
+numpy==2.1.3
+pandas==2.3.2
+matplotlib==3.10.0
+seaborn==0.13.2
+jax==0.9.0.1
+jaxlib==0.9.0.1
+torch==2.9.1
+ipython==8.30.0
+jupyter
